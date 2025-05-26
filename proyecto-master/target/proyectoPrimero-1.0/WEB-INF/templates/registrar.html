@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Préstamo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo">
+                <img src="Imagenes/logo.png" alt="Logo IES Torre de los Guzmanes">
+            </div>
+            <div class="titulo">
+                <h1>IES TORRE DE LOS GUZMANES</h1>
+            </div>
+            <div class="botones">
+                <button class="btn">INICIO</button>
+                <button class="btn">VOLVER</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="fondo-biblioteca">
+        <div class="registro-contenedor">
+            <h2>REGISTRAR PRÉSTAMO</h2>
+            <div class="registro-cuerpo">
+                <div class="mensaje-bienvenida">
+                    <p><strong>Registrar un préstamo</strong></p>
+                    <p>Elige el libro que deseas solicitar<br>y añádelo a tu cuenta</p>
+                </div>
+                <form class="formulario-login">
+                    <label for="titulo">Título del libro</label>
+                    <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título">
+
+                    <label for="autor">Autor del libro</label>
+                    <input type="text" id="autor" name="autor" placeholder="Ingrese el autor">
+
+                    <label for="fecha">Fecha del préstamo</label>
+                    <input type="date" id="fecha" name="fecha">
+
+                    <button type="submit">Registrar préstamo</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

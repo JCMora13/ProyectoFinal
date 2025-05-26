@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #004f6e;
+    padding: 30px 20px;
+    color: white;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.titulo {
+    flex: 1;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #003d5a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+.fondo-biblioteca {
+    background-image: url('../Imagenes/fondo-biblioteca.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 140px);
+    min-height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mensaje-bienvenida {
+    background-color: rgba(0, 79, 110, 0.95);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+.formulario-login {
+    background-color: rgba(0, 79, 110, 0.95);
+    padding: 40px 60px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.formulario-login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-login input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario-login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003d5a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-login button:hover {
+    background-color: #002f45;
+}
+
+.enlace-recuperar {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.enlace-recuperar a {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+
+
+.biblioteca-contenedor {
+    background-color: rgba(0, 79, 110, 0.95);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.biblioteca-contenedor h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.biblioteca-opciones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+}
+
+.biblioteca-opcion {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.biblioteca-opcion:last-child {
+    border-right: none;
+}
+
+.biblioteca-opcion button {
+    background-color: #003d5a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.biblioteca-opcion button:hover {
+    background-color: #002f45;
+}
+
+.registro-contenedor {
+    background-color: rgba(0, 79, 110, 0.95);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.registro-contenedor h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.registro-cuerpo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+
+.mensaje-bienvenida {
+    flex: 1;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+.formulario-login {
+    flex: 1;
+    max-width: 400px;
+}
+.formulario-registro {
+    background-color: rgba(0, 79, 110, 0.95);
+    padding: 40px 60px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.formulario-registro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-registro input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario-registro button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003d5a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-registro button:hover {
+    background-color: #002f45;
+}

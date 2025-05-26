@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Biblioteca Virtual - IES Torre de los Guzmanes</title>
+    	<base th:href="@{/app/}" />
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo">
+                <img th:src="@{/Imagenes/logo.png}" alt="Logo" />
+            </div>
+            <div class="titulo">
+                <h1>IES TORRE DE LOS GUZMANES</h1>
+            </div>
+            <div class="botones">
+                <a th:href="@{/app/index}" class="btn">INICIO</a> 
+					<a th:href="@{/app/menu}" class="btn">VOLVER</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="fondo-biblioteca">
+        <div class="biblioteca-contenedor">
+            <h2>BIBLIOTECA VIRTUAL</h2>
+            <div class="biblioteca-opciones">
+                <div class="biblioteca-opcion">
+                    <a th:href="@{/app/registrar}" class="btn">REGISTRAR</a>
+                </div>
+                <div class="biblioteca-opcion">
+                    <a th:href="@{/app/devolucion}" class="btn">DEVOLVER</a>
+                </div>
+                <div class="biblioteca-opcion">
+                    <a th:href="@{/app/historial}" class="btn">HISTORIAL</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
